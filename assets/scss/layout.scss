@@ -1,0 +1,19 @@
+.ls-layout {
+  height: 100%;
+
+  &-auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-default {
+    &-header {
+      background-color: white !important;
+    }
+
+    &-sider {
+      background-color: white !important;
+    }
+  }
+}
