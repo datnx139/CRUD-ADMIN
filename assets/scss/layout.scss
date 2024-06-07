@@ -1,6 +1,10 @@
 .ls-layout {
   height: 100%;
 
+  &-content {
+    overflow: auto;
+  }
+
   &-auth {
     display: flex;
     align-items: center;
