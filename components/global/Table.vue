@@ -12,10 +12,11 @@
 </template>
 <script lang="ts" setup generic="T">
   import type { TablePaginationConfig } from 'ant-design-vue'
+  import type { Column } from '~/models/common.interface'
 
   interface Props {
     data?: T[]
-    columns: any[]
+    columns: Column
     selection?: boolean
     selectedRowKeys?: string[]
     showPage?: boolean
